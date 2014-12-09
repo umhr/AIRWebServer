@@ -1,0 +1,14 @@
+C:\Users\jaian\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\jaian\AppData\Local\Temporary Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\jaian\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jaian\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\jaian\AppData\Local\Temporary Projects\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\jaian\documents\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\jaian\documents\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\jaian\documents\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jaian\documents\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\jaian\documents\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\jaian\Documents\Visual Studio 2010\Projects\as2cs2as\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\jaian\Documents\Visual Studio 2010\Projects\as2cs2as\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+E:\Downloads\110812Kinect\110914ascscpp\cs\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\Downloads\110812Kinect\110914ascscpp\cs\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
