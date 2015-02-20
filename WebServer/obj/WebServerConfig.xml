@@ -8,15 +8,19 @@
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>true</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>false</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>true</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
+<<<<<<< HEAD
       <value>'2015/02/20'</value>
+=======
+      <value>'2015/02/17'</value>
+>>>>>>> origin/master
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -30,8 +34,11 @@
       <name>CONFIG::desktop</name>
       <value>true</value>
     </define>
-    <verbose-stacktraces>true</verbose-stacktraces>
+    <optimize>true</optimize>
+    <omit-trace-statements>true</omit-trace-statements>
+    <verbose-stacktraces>false</verbose-stacktraces>
     <source-path append="true">
+<<<<<<< HEAD
       <path-element>C:\Users\umehara\Documents\GitHub\AIRWebServer\WebServer\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
@@ -42,6 +49,18 @@
   </compiler>
   <file-specs>
     <path-element>C:\Users\umehara\Documents\GitHub\AIRWebServer\WebServer\src\Main.as</path-element>
+=======
+      <path-element>C:\Users\bxi5\Documents\GitHub\AIRWebServer\WebServer\src</path-element>
+      <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
+    </source-path>
+    <library-path append="true">
+      <path-element>C:\Users\bxi5\Documents\GitHub\AIRWebServer\WebServer\lib\MinimalComps_0_9_10.swc</path-element>
+      <path-element>C:\Users\bxi5\Documents\GitHub\AIRWebServer\WebServer\lib\as3crypto.swc</path-element>
+    </library-path>
+  </compiler>
+  <file-specs>
+    <path-element>C:\Users\bxi5\Documents\GitHub\AIRWebServer\WebServer\src\Main.as</path-element>
+>>>>>>> origin/master
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
