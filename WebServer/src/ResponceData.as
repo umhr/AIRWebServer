@@ -2,7 +2,6 @@ package
 {
 	import flash.utils.ByteArray;
 	import header.CookieData;
-	import mx.formatters.DateFormatter;
 	
 	/**
 	 * ...
@@ -52,10 +51,7 @@ package
 				_byteArray.writeMultiByte("<html><body><h2>404 Not Found</h2></body></html>", "utf-8");
 			}
 			
-			var dateFormatter:DateFormatter = new DateFormatter();
-			dateFormatter.formatString = "EEE, DD MMM YYYY JJ:NN:SS";
-			var dateStr:String = dateFormatter.format(new Date().toUTCString());
-			
+			var dateStr:String = dateFormat(new Date());
 			text += "Date: " + dateStr + " GMT\r\n";
 			text += "Server: Mztm\r\n";
 			text += "Accept-Ranges: bytes\r\n";
@@ -77,6 +73,21 @@ package
 			byteArray.writeBytes(_byteArray);
 			
 			return byteArray;
+		}
+		
+		/**
+		 * @param	date
+		 * @return	"EEE, DD MMM YYYY JJ:NN:SS"で返す。
+		 */
+		private function dateFormat(date:Date):String {
+			var result:String = "";
+			var dateList:Array = date.toUTCString().split(" ");
+			result += dateList[0] + ", ";
+			result += dateList[2] + " ";
+			result += dateList[1] + " ";
+			result += dateList[4] + " ";
+			result += dateList[3] + " ";
+			return result;
 		}
 		
 		private function contentTypeFromExtention(extention:String):String {
